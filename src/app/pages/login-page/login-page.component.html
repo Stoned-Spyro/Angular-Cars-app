@@ -1,0 +1,22 @@
+<div class="container login">
+    <div class="row justify-content-md-center align-items-center">
+      <h1>Login</h1>
+        <div class="col-8 align-self-center">
+            <form #myForm="ngForm" novalidate (ngSubmit)="onSubmit(myForm)">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" name="email" ngModel required email>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" name="password" ngModel required >
+                </div>
+                <button type="submit" class="btn btn-primary align-self-center" [disabled]="myForm.invalid">Sign In</button>
+                <button type="button" class="btn btn-primary align-self-center" (click)="regist()">Sign Up</button>
+              </form>
+        </div>
+    </div>
+</div>
+
+

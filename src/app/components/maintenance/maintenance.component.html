@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Car maintenance</h1>
+            <button type="button" class="btn btn-primary" (click)="createCarPage()">Add new car</button>
+            <input id="cars-search" type="text" class="validate" [(ngModel)]="searchStr">
+            <label class="active" for="cars-search">Search</label>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Car Name</th>
+                        <th scope="col">Car Model</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let car of cars | search:searchStr" [car]='car'>
+                        <td>{{car.name}}</td>
+                        <td>{{car.model}}</td>
+                        <td>{{car.price}}</td>
+                        <td>
+                            <button type="button" class="btn btn-primary" (click)="showCarDetails(car.id)">Details</button>
+                            <button type="button" class="btn btn-warning" (click)="editCarsPage(car.id)">Edit</button>
+                            <button type="button" class="btn btn-danger"(click)="deleteCars(car.id)">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
