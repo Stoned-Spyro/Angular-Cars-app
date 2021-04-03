@@ -1,0 +1,19 @@
+#home{
+    background-image: url('src/assets/car.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+.price{
+    background-color: rgb(187, 20, 20, 0.6);
+}
+td{
+    background-color: rgb(36, 31, 31, 0.6);
+}
+.id{
+    background-color: rgb(36, 31, 31, 0.6);
+}
+.table{
+    border: rgb(26, 25, 25) 1px solid;
+    vertical-align: middle
+}

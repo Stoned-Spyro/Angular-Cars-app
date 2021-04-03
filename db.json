@@ -1,0 +1,114 @@
+{
+  "cars": [
+    {
+      "id": 2,
+      "name": "Mazda",
+      "model": "233",
+      "price": 12000
+    },
+    {
+      "id": 3,
+      "name": "Ford",
+      "model": "Fiesta",
+      "price": 5000
+    },
+    {
+      "id": 4,
+      "name": "Audi",
+      "model": "Q6",
+      "price": 6000
+    },
+    {
+      "id": 5,
+      "name": "Ford",
+      "model": "Focus",
+      "price": 7000
+    },
+    {
+      "id": 6,
+      "name": "BMW",
+      "model": "X5",
+      "price": 10000
+    },
+    {
+      "id": 7,
+      "name": "Mazda",
+      "model": "233",
+      "price": 12000
+    },
+    {
+      "id": 8,
+      "name": "Ford",
+      "model": "Fiesta",
+      "price": 5000
+    },
+    {
+      "id": 9,
+      "name": "Audi",
+      "model": "Q6",
+      "price": 6000
+    },
+    {
+      "id": 10,
+      "name": "Ford",
+      "model": "Focus",
+      "price": 7000
+    },
+    {
+      "id": 11,
+      "name": "BMW",
+      "model": "X5",
+      "price": 10000
+    },
+    {
+      "id": 12,
+      "name": "Mazda",
+      "model": "233",
+      "price": 12000
+    },
+    {
+      "id": 13,
+      "name": "Ford",
+      "model": "Fiesta",
+      "price": 5000
+    },
+    {
+      "id": 14,
+      "name": "Audi",
+      "model": "Q6",
+      "price": 6000
+    },
+    {
+      "id": 15,
+      "name": "Ford",
+      "model": "Focus",
+      "price": 7000
+    },
+    {
+      "id": 16,
+      "name": "Reno",
+      "model": "logan",
+      "price": 12345
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "test@gmail.com",
+      "username": "Oleksiy",
+      "password": 123
+    },
+    {
+      "username": "test",
+      "email": "test@gmail.con",
+      "password": "test",
+      "id": 2
+    },
+    {
+      "username": "itstep",
+      "email": "itstep@gmail.com",
+      "password": "1234",
+      "id": 3
+    }
+  ]
+}

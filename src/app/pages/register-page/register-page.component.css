@@ -1,0 +1,17 @@
+input.ng-touched.ng-invalid{
+    border: 2px solid red;
+}
+input.ng-touched.ng-valid{
+    border: 2px solid green;
+}   
+.reg{
+    margin-top: 350px;
+    background-color: rgb(18, 32, 94);
+    border-radius: 10px;
+    width: 600px;
+    color: white;
+}
+h1{
+    margin-left: 40%;
+    margin-right: auto;
+}
